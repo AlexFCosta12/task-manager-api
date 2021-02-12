@@ -6,7 +6,7 @@ const { findByIdAndUpdate } = require('./models/user')
 const userRouter = require ('./routers/user')
 const taskRouter = require ('./routers/task')
 
-
+console.log("Entrou")
 const app = express ()
 
 //const port = process.env.PORT || 3000
